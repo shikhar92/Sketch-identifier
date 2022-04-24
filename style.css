@@ -1,0 +1,43 @@
+#showsketch{
+float:right
+
+
+}
+
+h1{
+
+background-color: aqua;
+color: black;
+font-weight: bold;
+text-align: left;
+margin-top:0px;
+
+}
+
+canvas{
+
+border:  5px solid white;
+border-radius: 5px;
+animation-name: shikhar;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+margin-top:50px;
+
+}
+body{
+
+background-color: lightskyblue;
+
+}
+@keyframes shikhar{
+
+from{
+box-shadow: 2px 2px 40px lightcoral;
+}
+to{
+
+box-shadow: 2px 2px 5px red;
+
+}
+
+}
